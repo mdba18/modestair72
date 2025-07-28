@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MODEST-AIR 72</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #D9EEF7;
+      font-family: sans-serif;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 999;
+      background-color: #ffffff;
+      padding-top: 5px;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown-content a img {
+      display: block;
+      margin-bottom: 5px;
+      width: 210px;
+    }
+    .navbar-fixed {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 9999;
+      background-color: #D9EEF7;
+    }
+    .spacer {
+      height: 200px;
+    }
+  </style>
+  <script type="text/javascript">
+    function MM_preloadImages() {
+      var d = document; if (d.images) { if (!d.MM_p) d.MM_p = new Array();
+        var i, j = d.MM_p.length, a = MM_preloadImages.arguments;
+        for (i = 0; i < a.length; i++) if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+      }
+    }
+    function MM_swapImgRestore() {
+      var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+    function MM_findObj(n, d) {
+      var p, i, x; if (!d) d = document;
+      if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+        d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+      }
+      if (!(x = d[n]) && d.all) x = d.all[n];
+      for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+      for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+      if (!x && d.getElementById) x = d.getElementById(n);
+      return x;
+    }
+    function MM_swapImage() {
+      var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array;
+      for (i = 0; i < (a.length - 2); i += 3)
+        if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+    }
+  </script>
+</head>
+
+<body onload="MM_preloadImages(
+  './images/modest-air (2).png','./images/2.png','./images/4.png','./images/6.png','./images/12.png','./images/10.png','./images/8.png',
+  './images/SMA.png','./images/PA.png','./images/MA.png','./images/AM.png','./images/AR.png','./images/AQUA.png','./images/LM.png',
+  './images/GF.png','./images/GV.png','./images/GS.png','./images/WA.png','./images/IG.png','./images/EMAIL.png','./images/GMAPS.png'
+)">
+
+<div class="navbar-fixed">
+  <center>
+    <table width="1556" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="137" rowspan="2" bgcolor="#EFFAFF">
+          <a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','./images/modest-air (2).png',1)">
+            <img src="./images/modest-air.png" width="130" height="130" id="Image1">
+          </a>
+        </td>
+        <td colspan="6" bgcolor="#EFFAFF"><img src="./images/tagline.png" width="1400" height="46"></td>
+      </tr>
+      <tr>
+        <td width="242" bgcolor="#EFFAFF">
+          <div class="dropdown">
+            <a href="tentang.html" onmouseover="MM_swapImage('Image2','','./images/2.png',1)" onmouseout="MM_swapImgRestore()">
+              <img src="./images/1.png" width="210" height="43" id="Image2">
+            </a>
+            <div class="dropdown-content">
+              <a href="sumbermataair.html"><img src="./images/SMA1.png" id="imgSMA"></a>
+              <a href="perjalananair.html"><img src="./images/PA1.png" id="imgPA"></a>
+              <a href="manfaatair.html"><img src="./images/MA1.png" id="imgMA"></a>
+            </div>
+          </div>
+        </td>
+        <td width="210" bgcolor="#EFFAFF">
+          <div class="dropdown">
+            <a href="produk.html" onmouseover="MM_swapImage('Image3','','./images/4.png',1)" onmouseout="MM_swapImgRestore()">
+              <img src="./images/3.png" width="210" height="44" id="Image3">
+            </a>
+            <div class="dropdown-content">
+              <a href="airmineral.html"><img src="./images/AM1.png" id="imgAM"></a>
+              <a href="airro.html"><img src="./images/AR1.png" id="imgAR"></a>
+              <a href="aqua.html"><img src="./images/AQUA1.png" id="imgAQUA"></a>
+              <a href="lemineral.html"><img src="./images/LM1.png" id="imgLM"></a>
+            </div>
+          </div>
+        </td>
+        <td width="230" bgcolor="#EFFAFF">
+          <a href="aqualux.html" onmouseover="MM_swapImage('Image4','','./images/6.png',1)" onmouseout="MM_swapImgRestore()">
+            <img src="./images/5.png" width="210" height="44" id="Image4">
+          </a>
+        </td>
+        <td width="257" bgcolor="#EFFAFF">
+          <a href="kesehatan.html" onmouseover="MM_swapImage('Image7','','./images/8.png',1)" onmouseout="MM_swapImgRestore()">
+            <img src="./images/7.png" width="210" height="44" id="Image7">
+          </a>
+        </td>
+        <td width="271" bgcolor="#EFFAFF">
+          <div class="dropdown">
+            <a href="dokumentasi.html" onmouseover="MM_swapImage('Image6','','./images/10.png',1)" onmouseout="MM_swapImgRestore()">
+              <img src="./images/9.png" width="210" height="44" id="Image6">
+            </a>
+            <div class="dropdown-content">
+              <a href="foto.html"><img src="./images/GF1.png" id="imgGF"></a>
+              <a href="video.html"><img src="./images/GV1.png" id="imgGV"></a>
+              <a href="sertifikat.html"><img src="./images/GS1.png" id="imgGS"></a>
+            </div>
+          </div>
+        </td>
+        <td width="210" bgcolor="#EFFAFF">
+          <div class="dropdown">
+            <a href="kontak.html" onmouseover="MM_swapImage('Image5','','./images/12.png',1)" onmouseout="MM_swapImgRestore()">
+              <img src="./images/11.png" width="210" height="44" id="Image5">
+            </a>
+            <div class="dropdown-content">
+              <a href="https://api.whatsapp.com/send/?phone=6282115542932" target="_blank"><img src="./images/WA1.png" id="imgWA"></a>
+              <a href="https://www.instagram.com/modest_air_72/" target="_blank"><img src="./images/IG1.png" id="imgIG"></a>
+              <a href="https://mail.google.com/mail/?view=cm&to=modestair72@gmail.com" target="_blank"><img src="./images/EMAIL1.png" id="imgEMAIL"></a>
+              <a href="https://maps.app.goo.gl/8bTyXjqJX5R2ErUv8" target="_blank"><img src="./images/GMAPS1.png" id="imgGMAPS"></a>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </center>
+</div>
+
+<div class="spacer"></div>
+
+<center>
+  <table width="1556" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td colspan="7">
+        <img src="./images/poster1.png" width="1080" height="575">
+        <img src="./images/poster2.png" width="460" height="575">
+      </td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</center>
+
+<center>
+  <table width="1555" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="1555">
+        <img src="./images/footer.png" width="1556" height="250" usemap="#Map">
+      </td>
+    </tr>
+  </table>
+</center>
+
+<map name="Map">
+  <area shape="circle" coords="1183,63,37" href="https://api.whatsapp.com/send/?phone=6282115542932" target="_blank">
+  <area shape="circle" coords="1269,64,36" href="https://www.instagram.com/modest_air_72/" target="_blank">
+  <area shape="circle" coords="1354,63,35" href="https://mail.google.com/mail/?view=cm&to=modestair72@gmail.com" target="_blank">
+  <area shape="circle" coords="1440,64,36" href="https://maps.app.goo.gl/8bTyXjqJX5R2ErUv8" target="_blank">
+</map>
+
+</body>
+</html>
